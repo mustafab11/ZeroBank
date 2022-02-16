@@ -1,4 +1,4 @@
-@regression @wip @smoke
+@regression @wip
 Feature: Statements and Documents details
   Background:
     Given the user is logged in and sees Account Summary Page

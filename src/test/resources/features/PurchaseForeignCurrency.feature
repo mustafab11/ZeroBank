@@ -1,4 +1,4 @@
-@regression
+@regression @smoke
 Feature: Purchase Foreign Currency
 
   Background:
