@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: Purchase Foreign Currency
--------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 102.596 s - in Purchase Foreign Currency
