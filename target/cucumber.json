@@ -1,0 +1,131 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-01T08:36:40.486Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1003900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefnitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Add a new payee",
+        "description": "",
+        "id": "add-new-payee-under-pay-bills;add-a-new-payee",
+        "after": [
+          {
+            "result": {
+              "duration": 1864103500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefnitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9974666500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Add New Payee tab",
+            "match": {
+              "location": "com.zerobank.stepdefnitions.PayeeStepDefs.add_new_payee_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1040358400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "creates new payee using following information",
+            "match": {
+              "location": "com.zerobank.stepdefnitions.PayeeStepDefs.creates_new_payee_using_following_information(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Payee Name",
+                  "The Law Offices of Hyde, Price \u0026 Scharks"
+                ]
+              },
+              {
+                "cells": [
+                  "Payee Address",
+                  "100 Same st, Anytown, USA, 10001"
+                ]
+              },
+              {
+                "cells": [
+                  "Account",
+                  "Checking"
+                ]
+              },
+              {
+                "cells": [
+                  "Payee details",
+                  "XYZ account"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5077817700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "message The new payee The Law Offices of Hyde, Price \u0026 Scharks was successfully created. should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The new payee The Law Offices of Hyde, Price \u0026 Scharks was successfully created.",
+                  "offset": 8
+                }
+              ],
+              "location": "com.zerobank.stepdefnitions.PayeeStepDefs.message_the_new_payee_the_law_offices_of_hyde_price_scharks_was_successfully_created_should_be_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@bilal"
+          }
+        ]
+      }
+    ],
+    "name": "Add new payee under pay bills",
+    "description": "",
+    "id": "add-new-payee-under-pay-bills",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Payee.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

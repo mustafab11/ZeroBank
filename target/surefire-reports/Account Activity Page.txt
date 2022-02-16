@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: Account Activity Page
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 36.632 s <<< FAILURE! - in Account Activity Page
+Verify that Account Activity Page is seen(Account Activity Page)  Time elapsed: 36.632 s  <<< FAILURE!
+java.lang.AssertionError: Options do not match expected:<[Savings, Checking, Loan, Credit Card, Brokerage]> but was:<[Savings, Checking, Savings, Loan, Credit Card, Brokerage]>
+

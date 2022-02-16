@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Only authorized users should be able to login to the application
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 142.296 s - in Only authorized users should be able to login to the application
